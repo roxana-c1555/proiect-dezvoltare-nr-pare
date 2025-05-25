@@ -1,0 +1,61 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f4f8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  flex-direction: column; /*pt layout vertical pe telefon */
+}
+
+.container {
+  background: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  text-align: center;
+  width: 100%;
+  max-width: 500px; /* limitează lățimea pe ecrane mari */
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  box-sizing: border-box; /* pt a fi responsive */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  width: 100%; /* mai ușor de apăsat pe telefon */
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Media Query pentru ecrane foarte mici (sub 400px) */
+@media (max-width: 400px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1, h2 {
+    font-size: 18px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
