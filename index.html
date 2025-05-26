@@ -13,10 +13,20 @@
   <h1>Filtrare numere pare</h1>
 </header>
   <div class="container">
-    <h1>Introduceți o listă de numere, separate prin spații</h1>
-    <input type="text" id="inputNumbers" placeholder="Ex: 1 2 3 4 5 6" >
-    <button onclick="handleFilter()">Filtrează</button>
-    <p id="output"></p>
+  <h1>Introduceți o listă de numere, separate prin spații</h1>
+  
+  <select id="filterType">
+    <option value="pare">Numere pare</option>
+    <option value="impare">Numere impare</option>
+    <option value="prime">Numere prime</option>
+    <option value="multipli3">Multipli de 3</option>
+  </select>
+  
+  <input type="text" id="inputNumbers" placeholder="Ex: 1 2 3 4 5 6" >
+  <button onclick="handleFilter()">Filtrează</button>
+  <p id="output"></p>
+
+    <button onclick="resetFields()">Reset</button>  
   </div>
 
   <hr>
@@ -42,6 +52,9 @@
 <footer>
   <p>&copy; FEAA, 2025 Proiect realizat de Ciubuc Roxana și Ailenei Iulia</p>
 </footer>
+
+<button onclick="toggleDarkMode()">Comută Mod Întunecat</button>
+
 </body>
 </html>
 
