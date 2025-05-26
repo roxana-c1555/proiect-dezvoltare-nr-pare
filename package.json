@@ -1,0 +1,15 @@
+{
+  "name": "filtrare-valori",
+  "version": "1.0.0",
+  "description": "Aplicație web Filtrare Numere Pare\r Prin intermediul acestei aplicații utilizatorii pot introduce o listă de numere\r și pot selecta un anumite filtre, precum:\r     *numere pare\r     *numere impare\r     *numere prime\r     *multipli de 3\r Aplicația oferă și posibilitatea încprcării unui fișier text sau json pt a filtra datele\r Funționlatități:\r     *Filtrare numere introduse manual (pare, impare, prime, multipli de 3)\r     *Filtrare din fișier `.txt`\r     *Filtrare din fișier `.json`\r     *Selectare tip de filtrare prin dropdown (`<select>`)\r     *Interfață responsive cu HTML5 + CSS3 + Flexbox\r     *Butoane interactive și animații CSS\r     *Footer informativ\r     *Test automat cu Puppeteer",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^24.9.0"
+  }
+}
